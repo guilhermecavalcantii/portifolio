@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    /* height: 100vh; */
+    box-sizing:border-box;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.cabecalho{
+    padding: 0% 0% 0% 10%;
+}
+
+
+.cabecalho__menu{
+    display: flex;
+    gap: 50px ;
+}
+
+.cabecalho__menu__link{
+    font-family: 'Montserrat Alternates', sans-serif ;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: red;
+    text-decoration: none;
+    
+
+}
+
+
+.apresentacao {
+    margin: 10% 10%;
+    display: flex; 
+    align-items : center;
+    gap: 0px;
+    
+}
+
+.apresentacao__conteudo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 1.875rem;
+    font-family:'Krona One', sans-serif;
+    color: rgb(255, 255, 255);
+    
+}
+
+.apresentacao__conteudo__titulo1{
+    font-size: 1.875rem;
+    font-family:'Krona One', sans-serif;
+    color: rgb(255, 0, 0);
+    
+}
+
+strong {
+    color: red;
+    /* strong - titulo em vermelho e titulo destaque */
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1rem;
+    font-family:'Montserrat Alternates', sans-serif; 
+    color: #E6E6E6;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 0px 70px 0px 0px;
+    
+}
+
+.apresentacao__conteudo__texto1{
+    font-size: 1rem;
+    font-family:'Montserrat Alternates', sans-serif; 
+    color: #E6E6E6;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 0px 0px 0px 0px;
+    gap: 0px;
+    
+}
+
+.apresentacao__conteudo__texto2{
+    font-size: 1rem;
+    font-family:'Montserrat Alternates', sans-serif; 
+    color: #E6E6E6;
+    display: flex;
+    flex-direction:row ;
+    align-items: start;
+    padding: 0px 0px 0px 0px;
+    
+    
+}
+
+.apresentacao__conteudo__texto3{
+    font-size: 1rem;
+    font-family:'Montserrat Alternates', sans-serif; 
+    color: #E6E6E6;
+    display: flex;
+    flex-direction:row ;
+    align-items: start;
+    padding: 0px 0px 0px 0px;
+    
+    
+}
+
+.apresentacao__conteudo__texto4{
+    font-size: 1rem;
+    font-family:'Montserrat Alternates', sans-serif; 
+    color: #E6E6E6;
+    display: flex;
+    flex-direction:row ;
+    align-items: start;
+    padding: 0px 0px 0px 0px;
+    
+    
+}
+
+.apresentacao__conteudo__texto5{
+    font-size: 1rem;
+    font-family:'Montserrat Alternates', sans-serif; 
+    color: #E6E6E6;
+    display: flex;
+    flex-direction:row ;
+    align-items: start;
+    padding: 0px 0px 0px 0px;
+    
+    
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: 'Krona one', 'sans-serif';
+    font-weight: 100;
+    font-size: 1rem;
+  
+ 
+}
+.apresentacao__links__link{
+    /* background-color: red; */
+    display:flex;
+    justify-content:center;
+    gap:0px;
+    border: 2px outset red;
+    width: 0% 0% ;
+    border-radius: 10px ;
+    padding: 1.5% 2% ;
+    color: rgb(255, 0, 0);
+    font-family:'Montserrat Alternates', sans-serif; 
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align:center;
+    text-decoration: none;
+    
+}
+.apresentacao__links__link:hover{
+    background-color: #E6E6E6;
+
+}
+
+.apresentacao__imagem{
+    width: 50%;
+}
+
+.rodape{
+    padding: 24px;
+    color: red;
+    background-color: #E6E6E6;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1100px){
+    
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .apresentacao__conteudo__titulo1{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .apresentacao__conteudo__texto1{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .apresentacao__conteudo__texto2{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .apresentacao__conteudo__texto3{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .apresentacao__conteudo__texto4{
+        width: auto;
+        flex-direction: column;
+    }
+
+    .apresentacao__conteudo__texto5{
+        width: auto;
+        flex-direction: column;
+    }
+}
